@@ -45,7 +45,7 @@ const billTotal = 84;
 function calculcateTip(amount) {
   let taxAmount;
   taxAmount = (15 * amount) / 100;
-  return (amount += taxAmount);
+  return taxAmount;
 }
 
 // Print out the tipAmount
